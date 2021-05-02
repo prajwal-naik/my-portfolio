@@ -1,0 +1,44 @@
+/* .experience .container-fluid{
+    /* display: flex; */
+    /* margin-left: 100px; */
+    /* margin-right: -100px; */
+    /* padding-left: 100px; */
+    /* margin-top: 20vh;
+    align-items: center; */
+    /* margin-top:inherit; */
+    /* border:6px solid rgb(0, 0, 0); */
+    /* border-left: 0px; border-right:0px; border-bottom: 0px; */
+
+/* } */
+
+.carousel{
+    overflow: visible;
+}
+
+
+
+.experience .card {
+  display: flex;
+  /* height:400px; */
+  width: 500px;
+
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: 1rem 0rem 1rem #000;
+  /* margin-left: -50px; */
+  transition: 0.4s ease-out;
+  /* transition: .3s transform cubic-bezier(1.155,2.105,1.295,2.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(1.155,2.105,1.295,2.12); */
+  /* position: relative; */
+  left: 0px;
+  /* border: 3px solid rgb(0,154,217); */
+  /* margin: 10px; */
+}
+
+
+
+/* .experience .card:hover {
+  /* transform: translate(-50px, -20px);  */
+  /* transition: 0.4s ease-out; */
+  /* transform: scale(1.05); */
+  /* transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12) ease-out; */
+/* } */ 

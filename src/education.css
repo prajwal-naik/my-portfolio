@@ -1,0 +1,115 @@
+
+.education .container{
+    display: flex;
+    /* margin-left: 100px; */
+    /* margin-right: -100px; */
+    padding-left: 100px;
+    margin-top: 20vh;
+    /* margin-top:inherit; */
+    /* border:6px solid black; */
+}
+
+
+.education .card {
+  display: flex;
+  /* height:400px; */
+  width: 250px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  margin-left: -50px;
+  transition: 0.4s ease-out;
+  /* transition: .3s transform cubic-bezier(1.155,2.105,1.295,2.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(1.155,2.105,1.295,2.12); */
+  position: relative;
+  left: 0px;
+  /* border: 3px solid rgb(0,154,217); */
+  /* margin: 10px; */
+}
+
+
+
+.education .card:hover {
+  transform: translate(-50px, -20px); 
+  transition: 0.4s ease-out;
+  /* transform: scale(1.05); */
+  /* transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12) ease-out; */
+}
+
+/* .display .card:hover ~ .display .card {
+  position: relative;
+  Right: 50px;
+  transition: 0.4s ease-out;
+} */
+
+/* .display .title {
+  color: white;
+  font-weight: 300;
+  position: relative;
+    left: 20px;
+  top: 15px;
+} */
+
+/* .display .degree {
+    color: white;
+    font-size: 18px;
+    font-weight: 150;
+    position: relative;
+    left: 20px;
+  
+    top: 15px;
+} */
+
+/* .display .bar {
+  position: relative;
+  top: 50px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+
+.display .emptybar {
+    position: absolute;
+  background-color: #2e3033;
+  width: 150px;
+  height: 100%;
+}
+
+.display .filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0,154,217);
+  background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgb(190, 93, 93) 65%, rgb(255, 0, 0) 100%);
+  transition: 0.6s ease-out;
+} */
+
+/* .display .card:hover .filledbar {
+  width: 150px;
+  transition: 0.4s ease-out;
+} */
+
+/* .display .circle {
+  position: relative;
+  top: 150px;
+  left: calc(50% - 60px);
+} */
+
+/* .display .stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+} */
+
+/* svg {
+  fill: #17141d;
+  stroke-width: 2px;
+} */
+
+/* .display .card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+} */
+

@@ -1,0 +1,112 @@
+/* .card{
+  border-color: #111;
+} */
+
+/* .display .card {
+  background-color: #4d4b4b;
+  border: 3px solid rgb(0, 176, 230);
+} */
+
+/* .card-body{
+  background-color: #c5c5c5;
+} */
+
+
+
+
+h1.edu {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 3em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid rgb(0,154,217);
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+
+.caret[aria-expanded="true"]:after {
+  transform: rotate(180deg); 
+}
+  /*for animation*/ 
+.caret:after { 
+  transition: 0.7s; 
+}
+
+.display{
+  margin-top: 0px;
+  background-color: #c4c4c4;
+  height: 100%;
+  width: 100%;
+  /* position:relative; */
+  overflow-x: hidden;
+
+  /* position: fixed; */
+  overflow-y: auto;
+}
+
+
+.avatar{
+  font-size: 50;
+}
+
+.sidenav .card-body {
+  background-color: #111;
+  color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight:"100";
+}
+
+.full-height {
+  height: 100vh;
+
+}
+
+
+.sidenav {
+  border-right: solid 6px rgb(0,154,217);
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  /* z-index: -1; */
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  overflow-y:scroll;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .card-title {font-size: 28px;}
+}
